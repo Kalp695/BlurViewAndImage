@@ -2,7 +2,8 @@
 
 
   
-  if (!UIAccessibilityIsReduceTransparencyEnabled()) {
+  
+       if (!UIAccessibilityIsReduceTransparencyEnabled()) { 
         self.view.backgroundColor = [UIColor clearColor];
         
         UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
